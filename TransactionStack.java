@@ -3,7 +3,7 @@ public class TransactionStack {// Custom array based stack implementation
     private int top;
     public TransactionStack(int size) {
         stack = new char[size];
-        top = -1;
+        top = -1;// Inserts an element at the top of stack
     }
     public void push(char c) {
         stack[++top] = c;
