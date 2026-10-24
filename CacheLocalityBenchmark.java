@@ -1,4 +1,5 @@
-public class CacheLocalityBenchmark {
+public class CacheLocalityBenchmark {// Traverse matrix row by row
+
 
     static final int SIZE = 2000;
     static double[][] matrix = new double[SIZE][SIZE];
