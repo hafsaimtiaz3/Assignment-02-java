@@ -15,6 +15,7 @@ public class TradingEngineApp {
                         250.50,
                         252.75
                 );
+        System.out.println(senderId);
         event1.dispatch();
         event2.dispatch();
     }
