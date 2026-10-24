@@ -2,6 +2,7 @@ public class TradeEvent {     //base trade event class
     protected String senderId;
     protected long timestamp;
     protected double basePrice;
+    // Constructor initializes core event details
     public TradeEvent(String senderId, long timestamp, double basePrice) {
         this.senderId = senderId;
         this.timestamp = timestamp;
