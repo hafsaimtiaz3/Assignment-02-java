@@ -4,6 +4,7 @@ public class ParallelRiskCalculator extends RecursiveTask<Double> {
     private int start;
     private int end;
     private static final int THRESHOLD = 1000;
+    // Uses Fork Join recursive processing
     public ParallelRiskCalculator(double[] assets, int start, int end) {
         this.assets = assets;
         this.start = start;
