@@ -27,6 +27,7 @@ public class ForkJoinPortfolioApp {
         long endTime = System.currentTimeMillis();
         System.out.println("Total Risk Score: "
                 + totalRisk);
+        long startTime = System.currentTimeMillis();
         System.out.println("Processing Time: "
                 + (endTime - startTime)
                 + " ms");
