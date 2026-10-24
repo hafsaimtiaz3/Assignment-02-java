@@ -11,6 +11,7 @@ public class LogProcessorTask implements Runnable {// Runnable task for processi
                 + " -> Processing Log " + i
             );
             try {
+                // Pause execution for one second
                 Thread.sleep(1000);
             }
             catch (InterruptedException e) {
