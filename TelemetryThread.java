@@ -9,7 +9,7 @@ public class TelemetryThread extends Thread {// Dedicated thread for telemetry m
                 + i
             );
             try {
-                Thread.sleep(800);
+                Thread.sleep(800);// Wait before next telemetry update
             }
             catch (InterruptedException e) {
                 System.out.println("Thread Interrupted");
