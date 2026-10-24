@@ -11,7 +11,7 @@ public class TransactionStack {// Custom array based stack implementation
     public char pop() {// Removes and returns top element
         return stack[top--];
     }
-    public char peek() {
+    public char peek() {// Returns top element without removing it
         return stack[top];
     }
     public boolean isEmpty() {
