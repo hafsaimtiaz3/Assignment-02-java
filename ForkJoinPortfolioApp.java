@@ -4,7 +4,7 @@ public class ForkJoinPortfolioApp {
     public static void main(String[] args) {
         double[] assets = new double[10000];// Generate ten thousand asset values
         Random random = new Random();
-        for (int i = 0; i < assets.length; i++) {
+        for (int i = 0; i < assets.length; i++) {// Initialize Fork Join pool
             assets[i] = 100 + random.nextInt(5000);
         }
         ForkJoinPool pool = new ForkJoinPool();
