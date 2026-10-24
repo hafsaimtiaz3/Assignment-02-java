@@ -1,4 +1,4 @@
-public class TransactionStack {
+public class TransactionStack {// Custom array based stack implementation
     private char[] stack;
     private int top;
     public TransactionStack(int size) {
