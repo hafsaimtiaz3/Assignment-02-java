@@ -1,4 +1,4 @@
-public class LogProcessorTask implements Runnable {
+public class LogProcessorTask implements Runnable {// Runnable task for processing system logs
     @Override
     public void run() {
         for (int i = 1; i <= 5; i++) {
