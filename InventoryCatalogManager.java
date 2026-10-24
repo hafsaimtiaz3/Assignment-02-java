@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.concurrent.*;
 
-public class InventoryCatalogManager {
+public class InventoryCatalogManager {// Benchmark using Collections.synchronizedMap
 
     private static final int THREADS = 10;
     private static final int OPERATIONS = 50000;
