@@ -7,6 +7,7 @@ public class LogProcessorTask implements Runnable {// Runnable task for processi
 
             System.out.println(
                 Thread.currentThread().getName()
+                System.out.println("Thread: " + Thread.currentThread().getName());
                 + " -> Processing Log " + i
             );
             try {
