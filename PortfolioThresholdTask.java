@@ -12,7 +12,7 @@ public class PortfolioThresholdTask extends RecursiveAction {
         this.assets = assets;
         this.start = start;
         this.end = end;
-        this.riskCap = riskCap;
+        this.riskCap = riskCap;// Apply five percent penalty above risk cap
     }
     @Override
     protected void compute() {
