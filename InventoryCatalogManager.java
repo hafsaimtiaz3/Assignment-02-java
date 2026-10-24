@@ -44,7 +44,7 @@ public class InventoryCatalogManager {// Benchmark using Collections.synchronize
             e.printStackTrace();
         }
 
-        long endTime = System.currentTimeMillis();
+        long endTime = System.currentTimeMillis();// Benchmark using ConcurrentHashMap
 
         long totalTime = endTime - startTime;
 
