@@ -6,7 +6,8 @@ public class RequestQueue {// Custom array based queue implementation
     public RequestQueue(int capacity) {
         queue = new char[capacity];
         front = 0;
-        rear = -1;
+        rear = -1;// Adds element at rear position
+
         size = 0;
     }
     public void enqueue(char c) {
