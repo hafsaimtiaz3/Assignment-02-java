@@ -1,4 +1,4 @@
-public class RequestQueue {
+public class RequestQueue {// Custom array based queue implementation
     private char[] queue;
     private int front;
     private int rear;
