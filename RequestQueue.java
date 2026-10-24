@@ -21,7 +21,7 @@ public class RequestQueue {// Custom array based queue implementation
         size--;
         return value;
     }
-    public boolean isEmpty() {
+    public boolean isEmpty() {// Checks whether queue is empty
         return size == 0;
     }
 }
