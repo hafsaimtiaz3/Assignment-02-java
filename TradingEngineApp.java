@@ -8,7 +8,7 @@ public class TradingEngineApp {
                         "ORD123"
                 );
         TradeEvent event2 =
-                new ReutersQuoteEvent(
+                new ReutersQuoteEvent(  //redefined
                         "RTR001",
                         System.currentTimeMillis(),
                         0,
