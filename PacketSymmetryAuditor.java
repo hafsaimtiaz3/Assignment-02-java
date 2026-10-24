@@ -8,6 +8,7 @@ public class PacketSymmetryAuditor {
                 new TransactionStack(payload.length());
         RequestQueue queue =
                 new RequestQueue(payload.length());
+        // Store characters in stack and queue
         for (int i = 0; i < payload.length(); i++) {
             char ch = payload.charAt(i);
             stack.push(ch);
