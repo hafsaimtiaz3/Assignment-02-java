@@ -9,7 +9,7 @@ public class FIXOrderEvent extends TradeEvent {
     public void dispatch() {
         double fee = basePrice * 0.0015;
         double totalAmount = basePrice + fee;
-        System.out.println("\nFIX Order Event");
+        System.out.println("\nFIX Order Event");//calculation
         System.out.println("Client Order ID: " + clOrdId);
         System.out.println("Stock Price: $" + basePrice);
         System.out.println("Exchange Fee: $" + fee);
