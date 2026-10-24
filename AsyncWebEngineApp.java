@@ -10,7 +10,7 @@ public class AsyncWebEngineApp {// Main application entry point
         Thread logThread = new Thread(task);// Assign descriptive thread names
         logThread.setName("Log-Worker");
         telemetry.start();
-        logThread.start();
+        logThread.start();// Launch concurrent execution
         System.out.println("Both worker threads started.");
         System.out.println("Main Thread: " + Thread.currentThread().getName());
         System.out.println(
