@@ -8,7 +8,7 @@ public class TransactionStack {// Custom array based stack implementation
     public void push(char c) {
         stack[++top] = c;
     }
-    public char pop() {
+    public char pop() {// Removes and returns top element
         return stack[top--];
     }
     public char peek() {
