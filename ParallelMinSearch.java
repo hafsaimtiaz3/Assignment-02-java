@@ -1,4 +1,4 @@
-public class ParallelMinSearch extends SensorSearchEngine {
+public class ParallelMinSearch extends SensorSearchEngine {// Finds minimum sensor value in assigned partition
     public ParallelMinSearch(double[] sensorData,
                              int startIdx,
                              int endIdx) {
