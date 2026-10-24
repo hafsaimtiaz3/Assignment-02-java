@@ -14,7 +14,7 @@ public class AsyncWebEngineApp {// Main application entry point
         System.out.println("Both worker threads started.");
         System.out.println("Main Thread: " + Thread.currentThread().getName());
         System.out.println(
-            "Telemetry Thread Alive: "
+            "Telemetry Thread Alive: "//Added thread state logging
             + telemetry.isAlive()
         );
         System.out.println(
