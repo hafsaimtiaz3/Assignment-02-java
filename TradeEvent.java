@@ -1,4 +1,4 @@
-public class TradeEvent {
+public class TradeEvent {     //base trade event class
     protected String senderId;
     protected long timestamp;
     protected double basePrice;
