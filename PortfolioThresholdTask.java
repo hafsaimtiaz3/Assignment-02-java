@@ -18,7 +18,7 @@ public class PortfolioThresholdTask extends RecursiveAction {
     protected void compute() {
         if ((end - start) <= THRESHOLD) {
             for (int i = start; i < end; i++) {
-                if (assets[i] > riskCap) {
+                if (assets[i] > riskCap) {// Process large arrays recursively
                     assets[i] = assets[i] * 0.95;
                 }
             }
