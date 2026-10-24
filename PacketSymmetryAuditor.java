@@ -9,7 +9,7 @@ public class PacketSymmetryAuditor {
         RequestQueue queue =
                 new RequestQueue(payload.length());
         // Store characters in stack and queue
-        for (int i = 0; i < payload.length(); i++) {
+        for (int i = 0; i < payload.length(); i++) {// Compare FIFO and LIFO output
             char ch = payload.charAt(i);
             stack.push(ch);
             queue.enqueue(ch);
