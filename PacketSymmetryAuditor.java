@@ -4,7 +4,7 @@ public class PacketSymmetryAuditor {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Packet Payload: ");
         String payload = input.nextLine();
-        TransactionStack stack =
+        TransactionStack stack =// Read packet payload from user
                 new TransactionStack(payload.length());
         RequestQueue queue =
                 new RequestQueue(payload.length());
