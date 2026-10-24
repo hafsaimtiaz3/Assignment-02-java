@@ -12,7 +12,7 @@ public class RequestQueue {// Custom array based queue implementation
     }
     public void enqueue(char c) {
         rear++;
-        queue[rear] = c;
+        queue[rear] = c;Implemented dequeue operation
         size++;
     }
     public char dequeue() {
