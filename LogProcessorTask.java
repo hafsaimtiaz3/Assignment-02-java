@@ -2,6 +2,7 @@ public class LogProcessorTask implements Runnable {// Runnable task for processi
     @Override
     // Executes log processing loop
     public void run() {
+        // Repeat logging five times
         for (int i = 1; i <= 5; i++) {
 
             System.out.println(
