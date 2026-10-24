@@ -11,6 +11,7 @@ public class ReutersQuoteEvent extends TradeEvent {
     }
     @Override
     public void dispatch() {
+        double total = basePrice + (basePrice * 0.0015);
         double spread = askPrice - bidPrice;
         System.out.println("\nReuters Quote Event");
         System.out.println("Bid Price: $" + bidPrice);//updated bid
