@@ -1,4 +1,4 @@
-public abstract class SensorSearchEngine {
+public abstract class SensorSearchEngine {// Abstract base class for sensor data processing
     protected double[] sensorData;
     protected int startIdx;
     protected int endIdx;
