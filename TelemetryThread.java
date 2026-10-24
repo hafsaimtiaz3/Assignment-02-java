@@ -1,4 +1,4 @@
-public class TelemetryThread extends Thread {
+public class TelemetryThread extends Thread {// Dedicated thread for telemetry monitoring
     @Override
     public void run() {
         for (int i = 1; i <= 5; i++) {
