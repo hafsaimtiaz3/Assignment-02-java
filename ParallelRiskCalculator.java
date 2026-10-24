@@ -14,7 +14,7 @@ public class ParallelRiskCalculator extends RecursiveTask<Double> {
     protected Double compute() {
         if ((end - start) <= THRESHOLD) {// Sequential execution threshold
             double sum = 0;
-            for (int i = start; i < end; i++) {
+            for (int i = start; i < end; i++) {// Calculate risk sequentially for small segments
                 sum += assets[i];
             }
             return sum;
