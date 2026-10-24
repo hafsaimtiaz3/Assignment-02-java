@@ -6,6 +6,7 @@ public class FIXOrderEvent extends TradeEvent {
         this.clOrdId = clOrdId;
     }
     @Override
+    // Calculates exchange transaction fee
     public void dispatch() {
         double fee = basePrice * 0.0015;
         double totalAmount = basePrice + fee;
