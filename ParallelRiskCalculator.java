@@ -24,7 +24,7 @@ public class ParallelRiskCalculator extends RecursiveTask<Double> {
                 new ParallelRiskCalculator(assets, start, mid);
         ParallelRiskCalculator rightTask =
                 new ParallelRiskCalculator(assets, mid, end);
-        leftTask.fork();
+        leftTask.fork();// Execute subtasks in parallel
         double rightResult = rightTask.compute();
         double leftResult = leftTask.join();
         return leftResult + rightResult;
