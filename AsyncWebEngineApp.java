@@ -1,4 +1,4 @@
-public class AsyncWebEngineApp {
+public class AsyncWebEngineApp {// Main application entry point
     public static void main(String[] args) {
         System.out.println(
             "Main Thread Name: "
