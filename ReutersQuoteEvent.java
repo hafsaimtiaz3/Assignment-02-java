@@ -13,7 +13,7 @@ public class ReutersQuoteEvent extends TradeEvent {
     public void dispatch() {
         double spread = askPrice - bidPrice;
         System.out.println("\nReuters Quote Event");
-        System.out.println("Bid Price: $" + bidPrice);
+        System.out.println("Bid Price: $" + bidPrice);//updated bid
         System.out.println("Ask Price: $" + askPrice);
         System.out.println("Spread: $" + spread);
     }
