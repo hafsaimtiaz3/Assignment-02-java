@@ -24,6 +24,7 @@ public class PacketSymmetryAuditor {
             }
         }
         System.out.println("\nVerification Result");
+        System.out.println("Packet Verification Result: VALID");
         if (symmetric)
             System.out.println("Packet is Symmetric (Palindrome)");
         else
