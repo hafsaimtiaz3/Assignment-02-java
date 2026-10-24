@@ -1,4 +1,4 @@
-import java.util.concurrent.RecursiveTask;
+import java.util.concurrent.RecursiveTask;// RecursiveTask implementation for risk calculation
 public class ParallelRiskCalculator extends RecursiveTask<Double> {
     private double[] assets;
     private int start;
