@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;// Main driver class for palindrome verification
 public class PacketSymmetryAuditor {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
