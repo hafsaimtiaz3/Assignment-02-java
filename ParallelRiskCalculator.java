@@ -19,7 +19,7 @@ public class ParallelRiskCalculator extends RecursiveTask<Double> {
             }
             return sum;
         }
-        int mid = (start + end) / 2;
+        int mid = (start + end) / 2;// Divide workload into two subtasks
         ParallelRiskCalculator leftTask =
                 new ParallelRiskCalculator(assets, start, mid);
         ParallelRiskCalculator rightTask =
