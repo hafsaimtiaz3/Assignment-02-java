@@ -1,6 +1,6 @@
 public class TelemetryThread extends Thread {// Dedicated thread for telemetry monitoring
     @Override
-    public void run() {
+    public void run() {// Monitor CPU and memory statistics
         for (int i = 1; i <= 5; i++) {
 
             System.out.println(
