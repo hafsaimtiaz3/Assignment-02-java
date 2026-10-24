@@ -22,4 +22,4 @@ public class AsyncWebEngineApp {// Main application entry point
             + logThread.isAlive()
         );
     }
-}
+}// Question 3 completed successfully
